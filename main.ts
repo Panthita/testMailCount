@@ -2,7 +2,7 @@ input.onButtonPressed(Button.A, function () {
     control.reset()
 })
 radio.onReceivedString(function (receivedString) {
-    basic.showString("Hello!")
+    basic.showString(receivedString)
     basic.pause(100)
     basic.showIcon(IconNames.Heart)
     control.reset()
